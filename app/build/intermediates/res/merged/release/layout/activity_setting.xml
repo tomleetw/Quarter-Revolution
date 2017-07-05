@@ -1,0 +1,125 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+<LinearLayout
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="390dp"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+	
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="20sp" 
+         android:singleLine="false"
+         android:text="設定說明："
+         android:textStyle="bold" />
+     
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" 
+        android:singleLine="false"
+        android:text="「允許編輯」啟動後可以編輯「候選人姓名」、「上次選舉日期」與「下次選舉日期」。" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"  android:layout_gravity="center">
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:singleLine="false"
+         android:textSize="20sp" 
+         android:text="允許編輯：" />
+
+     <ToggleButton
+        android:id="@+id/togglebutton_enable_setting"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" 
+        android:text="ToggleButton" />
+     </LinearLayout>
+     <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:singleLine="false"
+          android:textSize="20sp" 
+          android:text="返回預設：" />
+
+      <Button
+          android:id="@+id/button_reset"
+          style="?android:attr/buttonStyleSmall"
+          android:layout_width="80sp"
+          android:layout_height="wrap_content"
+          android:text="ON"
+          android:textSize="20sp" />
+
+      </LinearLayout>
+</LinearLayout>
+      <Button
+          android:id="@+id/button_app_concept"
+          style="@android:style/Widget.Holo.Light.Button.Small"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20sp" 
+          android:text="製作理念" />
+      
+      <TextView
+            android:id="@+id/textViewmid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#b0c4de"
+            android:text=""
+            android:textSize="5sp" />
+      <Button
+          android:id="@+id/button_verions_info"
+          style="?android:attr/buttonStyleSmall"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="使用說明"
+          android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewmid1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b0c4de"
+        android:text=""
+        android:textSize="5sp" />
+    <Button
+        android:id="@+id/letter_info"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="傻湯姆給呆伯特的一封信"
+        android:textSize="20sp" />
+
+</LinearLayout>
+
+</ScrollView>

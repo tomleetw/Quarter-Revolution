@@ -1,0 +1,4 @@
+#Wed Jan 11 18:52:14 CST 2017
+base.0=C\:\\Users\\tom_lee\\StudioProjects\\Quarter-RevolutionTool\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\tom_lee\\StudioProjects\\Quarter-RevolutionTool\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\tom_lee\\StudioProjects\\Quarter-RevolutionTool\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
+        "source": "C:\\Users\\tom_lee\\StudioProjects\\Quarter-RevolutionTool\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\tom_lee\\StudioProjects\\Quarter-RevolutionTool\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_app_concept.xml",
+        "source": "C:\\Users\\tom_lee\\StudioProjects\\Quarter-RevolutionTool\\app\\src\\main\\res\\layout\\activity_app_concept.xml"
+    },
+    {
+        "merged": "C:\\Users\\tom_lee\\StudioProjects\\Quarter-RevolutionTool\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_setting.xml",
+        "source": "C:\\Users\\tom_lee\\StudioProjects\\Quarter-RevolutionTool\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\tom_lee\\StudioProjects\\Quarter-RevolutionTool\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_version_info.xml",
+        "source": "C:\\Users\\tom_lee\\StudioProjects\\Quarter-RevolutionTool\\app\\src\\main\\res\\layout\\activity_version_info.xml"
+    }
+]

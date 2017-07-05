@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\tom_lee\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\tom_lee\StudioProjects\Quarter-RevolutionTool\app\build\intermediates\pre-dexed\release\support-v4-19.1.0_e155130e99c23a1b8a48a542eb30203d455e556f.jar" />
+    </item>
+
+</items>

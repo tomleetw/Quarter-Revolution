@@ -1,0 +1,35 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+<LinearLayout
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+	
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="20sp" 
+         android:singleLine="false"
+         android:text="使用說明："
+         android:textStyle="bold" />
+     
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" 
+        android:singleLine="false"
+        android:text="在這個版本中，預設以台灣第14任總統選舉做實驗，時間從「2014/5/1」開始到「2016/1/14」。\n程式提醒使用者四個重要節日，過一個節日約一季，得一個季票，節日如下：\n\n02月04日：立春農民節，生產糧食。\n05月01日：勞工節，生產日常用品。\n08月12日：國際青年節，即時的戰力。\n10月31日：萬聖夜，兒童的歡樂節日，兒童是未來的主力。\n\n然而這個APP的自由度很高，您也可以在「設定」中啟動「允許編輯」來建構一個您自己的四分之一革命APP。\n\n這個APP設計是以每一個選民為獨立的中心，優先要改變的是選民，選舉的結果反而是其次。不需要組織，沒有統計，這樣就能一直維持「簡單」。 \n\n選民是民主政治的土壤，政治人物是農作物。土壤對了，農作物就容易長得好！\n\n" />
+</LinearLayout>
+
+</ScrollView>
